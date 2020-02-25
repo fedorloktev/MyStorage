@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="unnamed">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.company.Main" />
+        <option name="description" value="MyStorage" />
+        <option name="height" value="900" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="NewApp" />
+        <option name="vendor" value="WWW" />
+        <option name="version" value="1" />
+        <option name="width" value="900" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="archive.jar">
+        <element id="module-source" name="MyStorage" />
+        <element id="module-output" name="MyStorage" />
+        <element id="dir-copy" path="$PROJECT_DIR$/out/production/MyStorage/com/company" />
+        <element id="dir-copy" path="$PROJECT_DIR$/out/production/MyStorage/com" />
+        <element id="library" level="application" name="json-simple-1.1.1" />
+      </element>
+    </root>
+  </artifact>
+</component>

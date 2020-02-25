@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #0B0B61;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Authorization">
+   <children>
+      <Label layoutX="127.0" layoutY="81.0" text="My">
+         <font>
+            <Font name="Arial Black" size="59.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7095238095238097" endY="0.519047619047619" startX="0.7095238095238097" startY="0.1142857142857143">
+               <stops>
+                  <Stop color="#0b0b61" />
+                  <Stop color="#0b0b61" offset="0.007662835249042145" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="225.0" layoutY="81.0" text="Storage">
+         <font>
+            <Font name="Arial Black" size="59.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.6857142857142858" endY="0.6047619047619047" startX="0.6904761904761906">
+               <stops>
+                  <Stop color="#0b0b61" />
+                  <Stop color="RED" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Line endX="250.0" layoutX="300.0" layoutY="169.0" scaleY="3.0" startX="-250.0" stroke="#21008d" />
+      <TextField fx:id="login" alignment="CENTER" focusTraversable="false" layoutX="226.0" layoutY="188.0" opacity="0.4" promptText="Login" style="-fx-border-radius: 2;">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Button fx:id="signIn" focusTraversable="false" layoutX="256.0" layoutY="287.0" mnemonicParsing="false" opacity="0.51" prefHeight="15.0" prefWidth="92.0" text="Sign in" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7047619047619048" endY="1.0" startX="0.7047619047619048" startY="0.3952380952380952">
+               <stops>
+                  <Stop color="#0b0b61" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <PasswordField fx:id="password" alignment="CENTER" focusTraversable="false" layoutX="227.0" layoutY="226.0" opacity="0.4" promptText="Password" style="-fx-border-radius: 2;" />
+      <Text fx:id="invalid" fill="RED" layoutX="184.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вы неверно ввели логин или пароль" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

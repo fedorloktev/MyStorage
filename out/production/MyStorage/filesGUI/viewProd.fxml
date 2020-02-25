@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="generalwin" prefHeight="526.0" prefWidth="598.0" style="-fx-background-color: #0B0B61;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.viewProd">
+    <children>
+        <Line endX="445.0" layoutX="126.0" layoutY="90.0" scaleY="3.0" startX="-100.0" stroke="#7e9ef9" />
+        <Label layoutX="275.0" layoutY="11.0" text="Storage">
+            <font>
+                <Font name="Arial Black" size="27.0" />
+            </font>
+            <textFill>
+                <LinearGradient endX="0.6857142857142858" endY="0.6047619047619047" startX="0.6904761904761906">
+                    <stops>
+                        <Stop color="#0b0b61" />
+                        <Stop color="RED" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </textFill>
+        </Label>
+        <Label layoutX="226.0" layoutY="-10.0" prefHeight="82.0" prefWidth="98.0" text="My">
+            <font>
+                <Font name="Arial Black" size="29.0" />
+            </font>
+            <textFill>
+                <LinearGradient endX="0.7095238095238097" endY="0.519047619047619" startX="0.7095238095238097" startY="0.1142857142857143">
+                    <stops>
+                        <Stop color="#0b0b61" />
+                        <Stop color="#0b0b61" offset="0.007662835249042145" />
+                        <Stop color="WHITE" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </textFill>
+        </Label>
+        <Text fill="#5744ff" layoutX="125.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Просмотр информации о товаре" wrappingWidth="347.21630859375">
+            <font>
+                <Font name="Arial Bold Italic" size="20.0" />
+            </font>
+        </Text>
+      <Text fill="#5744ff" layoutX="221.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Склад хранения:" wrappingWidth="154.21630859375">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#5744ff" layoutX="178.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Наименование продукта:" wrappingWidth="241.21630859375">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#5744ff" layoutX="254.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Артикль:" wrappingWidth="90.21630859375">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#5744ff" layoutX="189.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Закупочная цена (руб.):" wrappingWidth="220.21630859375">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="exitButton" layoutX="248.0" layoutY="440.0" mnemonicParsing="false" opacity="0.43" prefHeight="40.0" prefWidth="116.0" text="Выход" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Line endX="445.0" layoutX="125.0" layoutY="205.0" startX="-100.0" stroke="#7e9ef9" />
+      <Line endX="445.0" layoutX="125.0" layoutY="276.0" startX="-100.0" stroke="#7e9ef9" />
+      <Line endX="445.0" layoutX="125.0" layoutY="336.0" startX="-100.0" stroke="#7e9ef9" />
+      <Line endX="445.0" layoutX="125.0" layoutY="401.0" startX="-100.0" stroke="#7e9ef9" />
+      <Text fx:id="storageName" fill="#c2c5ff" layoutX="33.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="528.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="prodName" fill="#c2c5ff" layoutX="35.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="528.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="articleName" fill="#c2c5ff" layoutX="35.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="528.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="priceName" fill="#c2c5ff" layoutX="34.0" layoutY="396.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="528.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

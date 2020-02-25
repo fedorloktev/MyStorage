@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="generalwin" prefHeight="307.0" prefWidth="598.0" style="-fx-background-color: #0B0B61;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.sellProd">
+    <children>
+        <Line endX="445.0" layoutX="126.0" layoutY="90.0" scaleY="3.0" startX="-100.0" stroke="#7e9ef9" />
+        <Label layoutX="275.0" layoutY="11.0" text="Storage">
+            <font>
+                <Font name="Arial Black" size="27.0" />
+            </font>
+            <textFill>
+                <LinearGradient endX="0.6857142857142858" endY="0.6047619047619047" startX="0.6904761904761906">
+                    <stops>
+                        <Stop color="#0b0b61" />
+                        <Stop color="RED" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </textFill>
+        </Label>
+        <Label layoutX="226.0" layoutY="-10.0" prefHeight="82.0" prefWidth="98.0" text="My">
+            <font>
+                <Font name="Arial Black" size="29.0" />
+            </font>
+            <textFill>
+                <LinearGradient endX="0.7095238095238097" endY="0.519047619047619" startX="0.7095238095238097" startY="0.1142857142857143">
+                    <stops>
+                        <Stop color="#0b0b61" />
+                        <Stop color="#0b0b61" offset="0.007662835249042145" />
+                        <Stop color="WHITE" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </textFill>
+        </Label>
+        <Text fill="#5744ff" layoutX="160.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Продажа товара со склада" wrappingWidth="278.21630859375">
+            <font>
+                <Font name="Arial Bold Italic" size="20.0" />
+            </font>
+        </Text>
+        <Text fill="#5744ff" layoutX="152.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Стоимость:" wrappingWidth="122.21630859375">
+            <font>
+                <Font name="System Italic" size="20.0" />
+            </font>
+        </Text>
+        <Button fx:id="exitButton" layoutX="41.0" layoutY="227.0" mnemonicParsing="false" opacity="0.43" prefHeight="40.0" prefWidth="116.0" text="Назад" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold Italic" size="22.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Text fill="#5744ff" layoutX="152.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Количество:" wrappingWidth="122.21630859375">
+            <font>
+                <Font name="System Italic" size="20.0" />
+            </font>
+        </Text>
+        <Button fx:id="sellButton" layoutX="375.0" layoutY="227.0" mnemonicParsing="false" opacity="0.43" prefHeight="48.0" prefWidth="197.0" text="Продать" textAlignment="CENTER">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+            <font>
+                <Font name="System Bold Italic" size="22.0" />
+            </font>
+        </Button>
+      <Text fill="#5744ff" layoutX="377.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="шт./л." wrappingWidth="122.21630859375">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#5744ff" layoutX="377.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="руб." wrappingWidth="122.21630859375">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="price" layoutX="286.0" layoutY="116.0" opacity="0.43" prefHeight="25.0" prefWidth="77.0" />
+      <TextField fx:id="count" layoutX="286.0" layoutY="165.0" opacity="0.43" prefHeight="25.0" prefWidth="77.0" />
+    </children>
+</AnchorPane>

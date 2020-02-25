@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #0B0B61;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Menu">
+   <children>
+      <ImageView fx:id="plus" fitHeight="112.0" fitWidth="114.0" layoutX="33.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/add.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gun" fitHeight="210.0" fitWidth="210.0" layoutX="146.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/gun.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="aksess" fitHeight="210.0" fitWidth="210.0" layoutX="364.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/aksess.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="suit" fitHeight="210.0" fitWidth="231.0" layoutX="364.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/suit.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="ammo" fitHeight="210.0" fitWidth="238.0" layoutX="146.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/ammo.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Text fill="#7e9ef9" layoutX="-139.0" layoutY="397.0" rotate="-90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="СКЛАДЫ">
+         <font>
+            <Font name="Arial Black" size="85.0" />
+         </font>
+      </Text>
+      <Line endX="445.0" layoutX="133.0" layoutY="142.0" scaleY="3.0" startX="-100.0" stroke="#7e9ef9" />
+      <Line endX="470.0" layoutX="395.0" layoutY="300.0" rotate="90.0" scaleY="3.0" startX="-100.0" stroke="#7e9ef9" />
+      <Label layoutX="287.0" layoutY="26.0" text="Storage">
+         <font>
+            <Font name="Arial Black" size="59.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.6857142857142858" endY="0.6047619047619047" startX="0.6904761904761906">
+               <stops>
+                  <Stop color="#0b0b61" />
+                  <Stop color="RED" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="189.0" layoutY="26.0" text="My">
+         <font>
+            <Font name="Arial Black" size="59.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7095238095238097" endY="0.519047619047619" startX="0.7095238095238097" startY="0.1142857142857143">
+               <stops>
+                  <Stop color="#0b0b61" />
+                  <Stop color="#0b0b61" offset="0.007662835249042145" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="gunButton" layoutX="152.0" layoutY="158.0" mnemonicParsing="false" opacity="0.43" prefHeight="199.0" prefWidth="199.0" style="-fx-background-color: blue; -fx-background-radius: 5;" visible="false" />
+      <Button fx:id="aksessButton" layoutX="370.0" layoutY="159.0" mnemonicParsing="false" opacity="0.43" prefHeight="199.0" prefWidth="199.0" style="-fx-background-color: blue; -fx-background-radius: 5;" visible="false" />
+      <Button fx:id="ammoButton" layoutX="152.0" layoutY="383.0" mnemonicParsing="false" opacity="0.43" prefHeight="199.0" prefWidth="199.0" style="-fx-background-color: blue; -fx-background-radius: 5;" visible="false" />
+      <Button fx:id="suitButton" layoutX="370.0" layoutY="383.0" mnemonicParsing="false" opacity="0.43" prefHeight="199.0" prefWidth="199.0" style="-fx-background-color: blue; -fx-background-radius: 5;" visible="false" />
+      <Button fx:id="plusButton" layoutX="33.0" layoutY="14.0" mnemonicParsing="false" opacity="0.43" prefHeight="112.0" prefWidth="112.0" textFill="#2b00ff" visible="false" />
+      <ImageView fx:id="into" fitHeight="170.0" fitWidth="210.0" layoutX="611.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/into.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sell" fitHeight="170.0" fitWidth="187.0" layoutX="611.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/out.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="move" fitHeight="170.0" fitWidth="180.0" layoutX="611.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/move.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="docInto" layoutX="617.0" layoutY="34.0" mnemonicParsing="false" opacity="0.62" prefHeight="158.0" prefWidth="159.0" style="-fx-background-color: green;" visible="false" />
+      <Button fx:id="docSell" layoutX="617.0" layoutY="213.0" mnemonicParsing="false" opacity="0.62" prefHeight="158.0" prefWidth="159.0" style="-fx-background-color: green;" visible="false" />
+      <Button fx:id="docMove" layoutX="617.0" layoutY="404.0" mnemonicParsing="false" opacity="0.62" prefHeight="158.0" prefWidth="159.0" style="-fx-background-color: green;" visible="false" />
+   </children>
+</AnchorPane>

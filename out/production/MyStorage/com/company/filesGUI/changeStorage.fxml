@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="generalwin" prefHeight="307.0" prefWidth="598.0" style="-fx-background-color: #0B0B61;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.changeStorage">
+    <children>
+        <Line endX="445.0" layoutX="126.0" layoutY="90.0" scaleY="3.0" startX="-100.0" stroke="#7e9ef9" />
+        <Label layoutX="275.0" layoutY="11.0" text="Storage">
+            <font>
+                <Font name="Arial Black" size="27.0" />
+            </font>
+            <textFill>
+                <LinearGradient endX="0.6857142857142858" endY="0.6047619047619047" startX="0.6904761904761906">
+                    <stops>
+                        <Stop color="#0b0b61" />
+                        <Stop color="RED" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </textFill>
+        </Label>
+        <Label layoutX="226.0" layoutY="-10.0" prefHeight="82.0" prefWidth="98.0" text="My">
+            <font>
+                <Font name="Arial Black" size="29.0" />
+            </font>
+            <textFill>
+                <LinearGradient endX="0.7095238095238097" endY="0.519047619047619" startX="0.7095238095238097" startY="0.1142857142857143">
+                    <stops>
+                        <Stop color="#0b0b61" />
+                        <Stop color="#0b0b61" offset="0.007662835249042145" />
+                        <Stop color="WHITE" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </textFill>
+        </Label>
+        <Text fill="#5744ff" layoutX="162.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Изменение склада хранения" wrappingWidth="288.21630859375">
+            <font>
+                <Font name="Arial Bold Italic" size="20.0" />
+            </font>
+        </Text>
+        <Text fill="#5744ff" layoutX="41.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Текущий склад хранения:" wrappingWidth="233.21630859375">
+            <font>
+                <Font name="System Italic" size="20.0" />
+            </font>
+        </Text>
+        <Button fx:id="exitButton" layoutX="41.0" layoutY="227.0" mnemonicParsing="false" opacity="0.43" prefHeight="40.0" prefWidth="116.0" text="Назад" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold Italic" size="22.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+      <Text fill="#5744ff" layoutX="41.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Новый склад хранения:" wrappingWidth="233.21630859375">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="moveButton" layoutX="375.0" layoutY="227.0" mnemonicParsing="false" opacity="0.43" prefHeight="48.0" prefWidth="197.0" text="Переместить" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Button>
+      <MenuButton fx:id="newStor" layoutX="274.0" layoutY="181.0" mnemonicParsing="false" opacity="0.43" prefHeight="27.0" prefWidth="296.0">
+         <items>
+            <MenuItem fx:id="gun2" mnemonicParsing="false" text="Вооружение" />
+            <MenuItem fx:id="ammo2" mnemonicParsing="false" text="Аммуниция" />
+            <MenuItem fx:id="aksess2" mnemonicParsing="false" text="Аксессуары" />
+            <MenuItem fx:id="suit2" mnemonicParsing="false" text="Одежда" />
+         </items>
+      </MenuButton>
+      <Text fx:id="nowStor" fill="#5744ff" layoutX="299.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="233.21630859375">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>
